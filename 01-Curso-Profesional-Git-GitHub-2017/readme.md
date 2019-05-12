@@ -298,3 +298,21 @@ git remote -v
 ```
 git remote remove [origin]
 ``` 
+
+
+## Git Pull/Feth
+
+_2 formas de traer tus cambios de github a tu repo local_
+
+### Descarga los cambios a una rama generalmente llamada origin/master, seguido de esto tienes que fuisonar esa rama
+``` 
+git fetch origin master
+```
+```
+git merge origin/master
+```  
+
+### Es como ejecutar los 2 pasos anteriores(fetch y merge) en uno solo
+```
+git pull origin master
+```
