@@ -273,3 +273,11 @@ Siempre es recomendable en lo que se puede de usar ssh(git@github.com…) en vez
 ```
 git clone [https/ssh]
 ```
+
+
+## Añadiendo una llave ssh
+
+### Creando una llave
+```
+ssh-keygen -t rsa -b 4096 -C [EMAIL]
+```
