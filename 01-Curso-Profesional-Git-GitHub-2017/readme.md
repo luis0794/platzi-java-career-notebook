@@ -281,3 +281,20 @@ git clone [https/ssh]
 ```
 ssh-keygen -t rsa -b 4096 -C [EMAIL]
 ```
+
+## Git remote
+
+### Conecta un repositorio con nuestro equipo local
+```
+git remote add [origin] [SSH/HTTPS]
+``` 
+
+### Lista las conexiones existentes
+```
+git remote -v
+``` 
+
+### Elimina una conexión con algún repositorio
+```
+git remote remove [origin]
+``` 
