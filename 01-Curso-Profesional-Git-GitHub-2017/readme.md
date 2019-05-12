@@ -261,3 +261,15 @@ git checkout -- [BRANCH NAME]
 ```
 git cherry-pick [SHA 1]
 ```
+
+
+## Git Clone/Fork
+
+### Fork 
+Nos hace una copia del proyecto en nuestro perfil/repositorios para poder hacerle lo que queramos sin afectar el proyecto original.
+
+### CLone 
+Siempre es recomendable en lo que se puede de usar ssh(git@github.com…) en vez de usar https ya que la primera es mucho más segura.
+```
+git clone [https/ssh]
+```
