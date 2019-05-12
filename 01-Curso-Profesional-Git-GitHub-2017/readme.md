@@ -316,3 +316,15 @@ git merge origin/master
 ```
 git pull origin master
 ```
+
+## Git push
+
+### Para enviar cambios al repositorio remoto
+```
+git push origin master
+```
+
+### Para enviar los tags
+```
+git push origin master --tags
+```
