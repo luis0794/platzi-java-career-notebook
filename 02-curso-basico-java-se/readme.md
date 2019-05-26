@@ -62,3 +62,7 @@ Empresariales(Web).
 * Java ME(Micro Edition):usada para dispositivos móviles(Ya no 
 se utiliza).
 * Actualmente no se usa para la interfaz Web
+
+
+## Cómo funciona la máquina virtual de java 
+![test](02-curso-basico-java-se/img/H6yMwE4.jpg)
