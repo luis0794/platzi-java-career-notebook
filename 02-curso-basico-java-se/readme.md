@@ -134,7 +134,11 @@ El casteo implícito radica en que no se necesita escribir código para que se l
 
 ***Ejemplo:***
 
-```
+``` Java
+// Define una variable de tipo int con el valor 100
+int numeroEntero = 100; 
+// Define una variable de tipo long a partir de un int
+long numeroLargo = numeroEntero
 ```
 
 #### **Casteo Explicito (Narrowing Casting)**
@@ -142,5 +146,9 @@ El casteo implícito radica en que no se necesita escribir código para que se l
 El casteo explicito se produce cando se realiza una conversión estrecha – ***narrowing casting*** – es decir, cuando se coloca un valor grande en un contenedor pequeño. Son susceptibles de perdida de datos y deben realizarse a través de código fuente, de forma explicita.
 
 ***Ejemplo:***
-```
+``` Java
+// Define una variable del tipo int con el valor 250
+int numeroEntero = 250;
+// Define una variable del tipo short y castea la variable numeroEntero
+short s = (short) numeroEntero;
 ```
