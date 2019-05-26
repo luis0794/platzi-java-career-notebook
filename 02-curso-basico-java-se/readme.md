@@ -75,4 +75,31 @@ se utiliza).
 
 El método main en java es un estándar utilizado por la JVM para iniciar la ejecución de cualquier programa Java. Dicho método se conoce como punto de entrada de la aplicación java, pero no en el caso de contenedores gestionados por ambientes como Servlets, EJB o MIDlet ellos tienen métodos de ciclo de vida propios.
 
+## **Tipos de datos**
 
+### Tipos de datos primitivos en Java
+
+En Java existen ocho tipos de datos primitivos que se pueden clasificar en:
+
+* Números enteros (byte, short, int, long).
+* Números reales (float, double).
+* Carácter (char).
+* Booleano o lógico (boolean).
+
+_De todos ellos, salvo del tipo boolean que únicamente puede ser true o false_
+
+En la siguiente tabla se muestran sus posibles valores mínimo y máximo:
+
+**Lista de tipos de datos primitivos del lenguaje Java**
+
+Tipo | Tamaño | Valor mínimo | Valor máximo
+:--: | :----: | -----------: | ------------
+byte | 8 bits | -128 | 127
+short | 16 bits | -32768 | 32767
+int | 32 bits | -2147483648 | 2147483647
+long | 64 bits | -9223372036854775808 | 9223372036854775807
+float | 32 bits | -3.402823e38 | 3.402823e38
+double | 64 bits | -1.79769313486232e308 | 1.79769313486232e308
+char | 16 bits | ‘\u0000’ | ‘\uffff’
+
+_**Nota:** un dato de tipo carácter se puede escribir entre comillas simples, por ejemplo ‘a’, o también indicando su valor Unicode, por ejemplo ‘\u0061’._
