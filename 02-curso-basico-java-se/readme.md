@@ -109,3 +109,15 @@ _**Nota:** un dato de tipo carácter se puede escribir entre comillas simples, p
 
 * **Float:** Se puede utilizar para casos como notas de colegio o escuela ( Ejemplo 4.5), para pesos de algunos artículos o productos de ventas en almacén, precios de los productos o servicios.
 * **Double:** Es utilizado para todo las demás transacciones que tiene que ser más precisas en los resultados y cualquier valor puede alterar el resultado.
+
+### Naming en Java
+
+* Java es sensible a las mayúsculas, _"variable"_ y _"Variable"_ son dos nombres de variables diferentes. 
+* Las constantes se escriben en mayúsculas, y, si tienen dos palabras, se separan con un ***"_"***.
+* La convención que se debe utilizar en Java es ***Camel Case***, la cual tiene dos formas: 
+  * **Upper Camel Case** y 
+  * **Lower Camel Case**. 
+
+    El nombre de las clases será con ***Upper*** (por ejemplo: HolaMundo). 
+
+    El nombre de las variables, los objetos y los métodos será con ***Lower*** (por ejemplo: minValor).
