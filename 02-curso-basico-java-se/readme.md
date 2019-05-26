@@ -68,5 +68,11 @@ se utiliza).
 * Actualmente no se usa para la interfaz Web
 
 
-## **Cómo funciona la máquina virtual de java**
+### **Cómo funciona la máquina virtual de java**
 ![JVM](img/H6yMwE4.jpg)
+
+### Método main
+
+El método main en java es un estándar utilizado por la JVM para iniciar la ejecución de cualquier programa Java. Dicho método se conoce como punto de entrada de la aplicación java, pero no en el caso de contenedores gestionados por ambientes como Servlets, EJB o MIDlet ellos tienen métodos de ciclo de vida propios.
+
+
