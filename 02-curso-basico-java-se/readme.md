@@ -152,3 +152,47 @@ int numeroEntero = 250;
 // Define una variable del tipo short y castea la variable numeroEntero
 short s = (short) numeroEntero;
 ```
+
+### **Arrays**
+
+En java tenemos diferentes tipos de arrays que podremos emplear entre los cuales encontramos los siguientes:
+
+**ArrayList:** Un arrayList es una estructura de almacenamiento dinámico, implementada por java, esta tiene la semejanza a una lista ligada , y como tal tiene la capacidad de crecer o decrecer en tiempo de ejecución.
+
+**LinkedList:** Usa internamente una lista doblemente ligada,
+
+**HashMap:** Básicamente designa claves únicaspara los valores correspondientes que se pueden recuperar en cualquier punto dado.
+
+#### **Se pueden declarar:**
+
+* Se definen usando corchetes después del tipo
+
+``` Java
+// <tipo>[] <nombre>;
+int[] arreglo;
+
+// <tipo> <nombre>[];
+int arreglo[];
+```
+
+* Si queremos darle un valor, debemos hacer usando las llaves
+
+``` Java
+// <tipo>[] <nombre> = { valor_1, valor_2 };
+int[] arreglo = { 1, 2, 3 };
+```
+
+* También podemos optar por definir su tamaño 
+
+``` Java
+// <tipo>[] <nombre> = new <tipo>[<tamaño>];
+int[] arreglo = new int[3];
+```
+
+* Se puede verificar las variables en el arreglo 
+
+``` Java
+// <tipo>[] <nombre> = new <tipo>[<tamaño>]{ valor_1, valor_2, valor_3};
+int[] arreglo = new int[3]{ 1, 2, 3};
+```
+
