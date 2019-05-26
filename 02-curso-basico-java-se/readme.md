@@ -1,5 +1,4 @@
-# Que es Java?
-
+## Que es Java?
 * **Simple**
 
   * Basado en C, la sitaxis es muy parecida a C y C++(OOP)
@@ -47,3 +46,19 @@ desempeño
   * El codigo no esta expuesto a nadie ya que a la hora de compilar
 el codigo lo convierte a ByteCode(archivo .class) y a la hora de
 correr el programa no lee el codigo fuente.
+
+
+## Origenes de Java
+
+* Nació en 1991.
+* Su creador es James Gosling.
+* Fué adquirido por Sun Microsystems.
+* Surge por la necesidad de comunicación de dispositivos, era necesario que estos tuvieran un software portable.
+* En el 2009, Fué adquirido por Oracle.
+* Existe las Categorias
+* Java SE(Standart Edition):Es la base de Java.
+* Java EE(Enterprise Edition):Usado en ambientes 
+Empresariales(Web).
+* Java ME(Micro Edition):usada para dispositivos móviles(Ya no 
+se utiliza).
+* Actualmente no se usa para la interfaz Web
