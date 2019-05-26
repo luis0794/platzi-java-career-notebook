@@ -121,3 +121,26 @@ _**Nota:** un dato de tipo carácter se puede escribir entre comillas simples, p
     El nombre de las clases será con ***Upper*** (por ejemplo: HolaMundo). 
 
     El nombre de las variables, los objetos y los métodos será con ***Lower*** (por ejemplo: minValor).
+
+### Cast de variables 
+
+El casteo (***casting***) es un procedimiento para transformar una variable primitiva de un tipo a otro, o transformar un objeto de una clase a otra clase siempre y cuando haya una relación de herencia entre ambas.
+
+Existen distintos tipos de casteo (casting) de acuerdo a si se utilizan tipos de datos o clases.
+
+#### **Casteo Implícito (Widening Casting)**
+
+El casteo implícito radica en que no se necesita escribir código para que se lleve a cabo. Ocurre cuando se realiza una conversión ancha – ***widening casting*** – es decir, cuando se coloca un valor pequeño en un contenedor grande.
+
+***Ejemplo:***
+
+```
+```
+
+#### **Casteo Explicito (Narrowing Casting)**
+
+El casteo explicito se produce cando se realiza una conversión estrecha – ***narrowing casting*** – es decir, cuando se coloca un valor grande en un contenedor pequeño. Son susceptibles de perdida de datos y deben realizarse a través de código fuente, de forma explicita.
+
+***Ejemplo:***
+```
+```
