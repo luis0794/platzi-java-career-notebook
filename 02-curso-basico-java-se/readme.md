@@ -103,3 +103,9 @@ double | 64 bits | -1.79769313486232e308 | 1.79769313486232e308
 char | 16 bits | ‘\u0000’ | ‘\uffff’
 
 _**Nota:** un dato de tipo carácter se puede escribir entre comillas simples, por ejemplo ‘a’, o también indicando su valor Unicode, por ejemplo ‘\u0061’._
+
+
+### Tipos de datos con punto decimal
+
+* **Float:** Se puede utilizar para casos como notas de colegio o escuela ( Ejemplo 4.5), para pesos de algunos artículos o productos de ventas en almacén, precios de los productos o servicios.
+* **Double:** Es utilizado para todo las demás transacciones que tiene que ser más precisas en los resultados y cualquier valor puede alterar el resultado.
