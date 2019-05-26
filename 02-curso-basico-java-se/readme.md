@@ -1,4 +1,8 @@
-## Que es Java?
+# **Curso Básico de Java SE (Handbook)**
+
+## **Introducción a Java**
+
+### **Que es Java?**
 * **Simple**
 
   * Basado en C, la sitaxis es muy parecida a C y C++(OOP)
@@ -48,7 +52,7 @@ el codigo lo convierte a ByteCode(archivo .class) y a la hora de
 correr el programa no lee el codigo fuente.
 
 
-## Origenes de Java
+### **Orígenes de Java**
 
 * Nació en 1991.
 * Su creador es James Gosling.
@@ -64,5 +68,5 @@ se utiliza).
 * Actualmente no se usa para la interfaz Web
 
 
-## Cómo funciona la máquina virtual de java 
+## **Cómo funciona la máquina virtual de java**
 ![JVM](img/H6yMwE4.jpg)
