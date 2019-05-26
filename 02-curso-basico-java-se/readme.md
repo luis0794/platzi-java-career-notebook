@@ -65,4 +65,4 @@ se utiliza).
 
 
 ## Cómo funciona la máquina virtual de java 
-![test](02-curso-basico-java-se/img/H6yMwE4.jpg)
+![JVM](img/H6yMwE4.jpg)
