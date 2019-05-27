@@ -245,3 +245,17 @@ Java tiene un mecanismo llamado Precedencia de Operadores que permite Jerarquiza
 
 Ahora tomando como punto de partida la imagen anterior, podríamos resolver la operación haciendo los siguientes pasos:
 ![pre-op-2](img/Oml8WQV.png)
+
+## **Control de flujo**
+
+### **if/else, switch**
+
+#### La sentencia if/else
+
+La sentencia if/else nos permite ejecutar un bloque de código o no, dependiendo de una condición que se evalúa justo antes de este bloque.
+Esta condición se evalúa a un valor booleano, es decir, su resultado solo puede tomar dos valores, true o false.
+
+#### La sentencia switch
+Esta sentencia permite elegir múltiples caminos a seguir por el flujo de ejecución de nuestro programa.
+En este caso, el camino a seguir se selecciona basándose en el valor de una expresión que se evalúa a un valor entero
+
