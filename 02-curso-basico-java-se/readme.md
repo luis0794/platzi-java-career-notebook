@@ -234,3 +234,11 @@ Operador | Símbolo | Ejemplo
 AND | && | AND lógico
 OR | \|\| | OR lógico
 NOT | ! | Negación
+
+### **Precedencia de operadores**
+
+Es muy probable que en alguna parte hayas visto operaciones como estas: 77/ (5-3) + (2-66)/23 de las cuales no has sabido ni por dónde empezar para resolverlas.
+
+Java tiene un mecanismo llamado Precedencia de Operadores que permite Jerarquizar las operaciones dándoles una prioridad con respecto a otra, a continuación te muestro una tabla dónde el punto más alto es la prioridad más alta.
+
+Ahora tomando como punto de partida la imagen anterior, podríamos resolver la operación haciendo los siguientes pasos:
