@@ -241,4 +241,7 @@ Es muy probable que en alguna parte hayas visto operaciones como estas: 77/ (5-3
 
 Java tiene un mecanismo llamado Precedencia de Operadores que permite Jerarquizar las operaciones dándoles una prioridad con respecto a otra, a continuación te muestro una tabla dónde el punto más alto es la prioridad más alta.
 
+![pre-op-1](img/1kTntkv.png)
+
 Ahora tomando como punto de partida la imagen anterior, podríamos resolver la operación haciendo los siguientes pasos:
+![pre-op-2](img/Oml8WQV.png)
