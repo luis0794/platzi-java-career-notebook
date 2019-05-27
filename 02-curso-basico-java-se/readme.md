@@ -196,3 +196,41 @@ int[] arreglo = new int[3];
 int[] arreglo = new int[3]{ 1, 2, 3};
 ```
 
+## Operadores en Java
+
+### Tipos de operadores 
+
+#### **Operadores aritméticos**
+
+Se usan para realizar operaciones de la matemática básica como la suma, resta, multiplicación, división.
+
+Operador | Símbolo | Acción
+-------- | :-----: | ------
+Suma | + | Suma dos operandos
+Resta | - | Resta el segundo operando del primero
+Multiplicación | * | Multiplica los dos operandos
+División | / | Divide el primer operando por el segundo
+Resto (módulo) | % | Facilita el resto de la división entre dos operandos (residuo de la división)
+
+#### **Operadores de Relacionales**
+
+Los operadores relacionales se usan para evaluar expresiones condicionales y se basan en el concepto de verdadero o falso
+
+Operador | Símbolo | Ejemplo
+-------- | :-----: | -------
+Mayor que | > | 3 > 4 FALSO; 8 > 5 VERDADERO
+Mayor o igual que | >= | 3 >= 3 VERDADERO; 4 >= 4 FALSO
+Menor que | < | 4 < 6 VERDADERO; 7 < 4 FALSO
+Menor o igual que | <= | 2 <= 2 VERDADERO; 3 <= 2 FALSO
+Igual | == | 4 = 4 VERDADERO; 3 = 4 FALSO
+Distinto | != | 6 != 7 VERDADERO; 7 != 7 FALSO
+
+#### **Operadores Lógicos**
+
+Los operadores lógicos son usados para concatenar dos o más expresiones con operadores relacionales.
+
+Operador | Símbolo | Ejemplo
+-------- | :-----: | -------
+AND | && | AND lógico
+OR | \|\| | OR lógico
+NOT | ! | Negación
