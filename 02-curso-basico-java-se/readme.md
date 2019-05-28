@@ -266,7 +266,7 @@ En este caso, el camino a seguir se selecciona basándose en el valor de una exp
 
 Los ciclos while son también una estructura cíclica, que nos permite ejecutar una o varias líneas de código de manera repetitiva sin necesidad de tener un valor inicial e incluso a veces sin siquiera conocer cuando se va a dar el valor final que esperamos, los ciclos while, no dependen directamente de valores numéricos, sino de valores booleanos, es decir su ejecución depende del valor de verdad de una condición dada, verdadera o falso, nada más. De este modo los ciclos while, son mucho más efectivos para condiciones indeterminadas, que no conocemos cuando se van a dar a diferencia de los ciclos for, con los cuales se debe tener claro un principio, un final y un tamaño de paso.
 
-** Estructura **
+**Estructura**
 
 ``` Java
 while(true){
@@ -278,7 +278,7 @@ while(true){
 
 Los ciclos do-while son una estructura de control cíclica, los cuales nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial e incluso a veces sin siquiera conocer cuando se va a dar el valor final, hasta aquí son similares a los ciclos while, sin embargo el ciclo do-while nos permite añadir cierta ventaja adicional y esta consiste que nos da la posibilidad de ejecutar primero el bloque de instrucciones antes de evaluar la condición necesaria, de este modo los ciclos do-while, son más efectivos para algunas situaciones especificas. En resumen un ciclo do-while, es una estructura de control cíclica que permite ejecutar de manera repetitiva un bloque de instrucciones sin evaluar de forma inmediata una condición especifica, sino evaluándola justo después de ejecutar por primera vez el bloque de instrucciones
 
-** Estructura **
+**Estructura**
 
 ``` Java
 do {
@@ -292,7 +292,7 @@ do {
 
 Los ciclos for (o ciclos para) son una estructuras de control cíclica, nos permiten ejecutar una o varias líneas de código de forma iterativa (o repetitiva), pero teniendo cierto control y conocimiento sobre las iteraciones. En el ciclo for, es necesario tener un valor inicial y un valor final, y opcionalmente podemos hacer uso del tamaño del "paso" entre cada "giro" o iteración del ciclo.
 
-** Estructura **
+**Estructura**
 
 ``` Java
 for(int i = 0; i <= N; i++) {
@@ -304,7 +304,7 @@ for(int i = 0; i <= N; i++) {
 
 Esta estructura nos permite recorrer una Colección o un array de elementos de una forma sencilla. Evitando el uso de Iteradores o de un bucle for normal.
 
-** Estructura **
+**Estructura**
 
 ``` Java
 for (int elemento : elementos) {
