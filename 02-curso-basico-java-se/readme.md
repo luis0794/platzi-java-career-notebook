@@ -256,6 +256,32 @@ La sentencia if/else nos permite ejecutar un bloque de código o no, dependiendo
 Esta condición se evalúa a un valor booleano, es decir, su resultado solo puede tomar dos valores, true o false.
 
 #### La sentencia switch
+
 Esta sentencia permite elegir múltiples caminos a seguir por el flujo de ejecución de nuestro programa.
 En este caso, el camino a seguir se selecciona basándose en el valor de una expresión que se evalúa a un valor entero
 
+### Ciclo while/do while
+
+## While
+
+Los ciclos while son también una estructura cíclica, que nos permite ejecutar una o varias líneas de código de manera repetitiva sin necesidad de tener un valor inicial e incluso a veces sin siquiera conocer cuando se va a dar el valor final que esperamos, los ciclos while, no dependen directamente de valores numéricos, sino de valores booleanos, es decir su ejecución depende del valor de verdad de una condición dada, verdadera o falso, nada más. De este modo los ciclos while, son mucho más efectivos para condiciones indeterminadas, que no conocemos cuando se van a dar a diferencia de los ciclos for, con los cuales se debe tener claro un principio, un final y un tamaño de paso.
+
+** Estructura **
+
+``` Java
+while(true){
+	// Instrucciones
+}
+```
+
+## Do while
+
+Los ciclos do-while son una estructura de control cíclica, los cuales nos permiten ejecutar una o varias líneas de código de forma repetitiva sin necesidad de tener un valor inicial e incluso a veces sin siquiera conocer cuando se va a dar el valor final, hasta aquí son similares a los ciclos while, sin embargo el ciclo do-while nos permite añadir cierta ventaja adicional y esta consiste que nos da la posibilidad de ejecutar primero el bloque de instrucciones antes de evaluar la condición necesaria, de este modo los ciclos do-while, son más efectivos para algunas situaciones especificas. En resumen un ciclo do-while, es una estructura de control cíclica que permite ejecutar de manera repetitiva un bloque de instrucciones sin evaluar de forma inmediata una condición especifica, sino evaluándola justo después de ejecutar por primera vez el bloque de instrucciones
+
+** Estructura **
+
+``` Java
+do {
+	// Instrucciones
+} while(condicion);
+```
