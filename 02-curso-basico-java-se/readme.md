@@ -311,3 +311,48 @@ for (int elemento : elementos) {
 	// Instrucciones
 }
 ```
+
+### Ciclos for anidados
+
+Además de manejar bucles for sencillos como en el ejemplo anterior, podemos manejarlos también anidados como es el caso que quisiéramos iterar un array de 2 o 3 dimensiones.
+
+La mejor forma de verlo en práctica es utilizando un arreglo de 2 dimensiones haríamos lo siguiente:
+
+``` Java
+public class ForAninado {
+ 
+    public static void main(String[] args) {
+ 
+        //Definimos un array de 3 filas x 5 columnas
+        int array[][]={{1,2,3,4,5}, {6,7,8,9,10}, {11,12,13,14,15}};
+ 
+        //Recorremos el array multidimensional
+        for (int i=0;i<array.length;i++){
+            for(int j=0;j<array[0].length;j++){
+                System.out.println(array[i][j]);
+            }
+        }
+    }
+ 
+}
+```
+Ahora si lo hiciéramos con un foreach tendríamos lo siguiente:
+
+``` Java
+public class ForEachAninado {
+ 
+    public static void main(String[] args) {
+ 
+        //Definimos un array de 3 filas x 5 columnas
+        int array[][]={{1,2,3,4,5}, {6,7,8,9,10}, {11,12,13,14,15}};
+ 
+        //Recorremos el array multidimensional
+        for (int[] arrayInterno : array){
+            for(int numero: arrayInterno){
+                System.out.println(numero);
+            }
+        }
+    }
+ 
+}
+```
