@@ -356,3 +356,39 @@ public class ForEachAninado {
  
 }
 ```
+
+## POO
+
+### Programación Orientada a Objetos
+
+Trata de descomponer un problema en subproblemas y más subproblemas
+
+#### Problem domain (_Definir un dominio del problema_)
+
+**Qué queremos lograr...**
+Recopilación de requisitos del cliente y tener por escrito un alcance
+
+**Como interpretar un problema...**
+Ver un problema como un escenario del problema y trtar de simularlo como objetos
+
+**Identificando Objetos**
+
+Pueden ser:
+* Físicos
+* Conceptuales
+
+***Atributos (Características) de un objeto***
+* Tamaño
+* Nombre
+* Forma
+* Representan el estado del objeto
+
+Los nombres y atributos de los objetos por lo general son sustantivos
+```
+user, session
+```
+
+Las operaciones suelen ser verbos o sustantivo y verbo
+```
+login, makeReport
+```
