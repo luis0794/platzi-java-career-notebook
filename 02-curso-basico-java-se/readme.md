@@ -392,3 +392,21 @@ Las operaciones suelen ser verbos o sustantivo y verbo
 ```
 login, makeReport
 ```
+
+### Clase
+
+#### Que es una clase
+
+Una Clase es ka forma en cómo defines tu objeto para generar más objetos, son descriptivas, son plantillas
+
+#### Ejemplo:
+
+``` Java
+public class Auto {
+
+	// Atributos
+	
+	// Comportamientos (Métodos)
+
+}
+```
